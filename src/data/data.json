@@ -1,0 +1,195 @@
+{
+    "talks": [
+        {
+            "code": "939QES",
+            "title": "The work that you don\u2019t see",
+            "abstract": "In React Native, when people usually get excited it\u2019s all about some shiny new feature, or tool, or clickbaity \u201cdo this to get 10x better!\u201d claim. When announcements are made, they need to be catchy, sleek and able to generate hype\u2026 and how, for the Nth time, RN is better than tech X or faster than tech Y.\r\n\r\nBut that\u2019s not all that is happening: under the surface, deep down in the mines of the foundation of this ecosystem, there\u2019s a steady stream of work, discussions and considerations happening - all driven by the pressing need to constantly shift React Native into something more solid and better structured. In this talk, I want to take you down into the guts of these conversations, and shine a light onto some of these radical changes, how they are shaped up and what to expect in the future of React Native.",
+            "speakers": [
+                "HECXWH"
+            ],
+            "track": null,
+            "start": "2023-06-16T09:30:00+02:00",
+            "end": "2023-06-16T10:20:00+02:00",
+            "room": 2
+        },
+        {
+            "code": "9ZTG8N",
+            "title": "React patterns",
+            "abstract": "If you use React to make small applications, demos, proof of concept, or to \"play games,\" I suggest you don't listen to this talk. You don't need it; in fact, it will just complicate your life. \r\n\r\nIf, on the other hand, you have found yourself managing small applications that have gotten too big and no one has control over them anymore; if you have gotten to the point where you wonder what would be the best architecture for a single-page application; if with each new project you try a different combination of libraries/structure/conventions, and after six months you don't like it anymore; if your application is impossible to test and you have been forced to write hundreds of end-to-end tests.\r\n\r\nThen this talk is for you. By applying the correct design principles and design patterns, we will see how we can create a three-tier UI architecture that allows us to build applications with React that are clean, maintainable, testable, and infinitely scalable. \r\n\r\nPs: we will not talk about the folder structure but how to split and decouple the components of a React application as much as possible and create a design we are proud of.",
+            "speakers": [
+                "NQZE7C"
+            ],
+            "track": null,
+            "start": "2023-06-16T10:20:00+02:00",
+            "end": "2023-06-16T11:00:00+02:00",
+            "room": 2
+        },
+        {
+            "code": "BLSV9V",
+            "title": "Can native modules be easy?",
+            "abstract": "Sometimes we come across the need to use some native APIs or 3rd-party libraries in our React Native application, but there is no such library available yet or all of them are of poor quality or, even worse, unmaintained.\r\nCreating a native module for React Native always sounds like a pain, especially for us, React Native developers who usually specialize in React and JavaScript/TypeScript. Learning Objective-C, Java or C++ just to make a library can be challenging and expensive.\r\n\r\nIn this talk I'm going to show how Expo with its Expo Modules API changed the way of writing native modules for React Native, making it much easier, more approachable and enjoyable for developers who are comfortable with TypeScript and have limited experience in mobile development. The Expo modules are written in more modern languages: Swift and Kotlin which are more similar to TypeScript. We will walk through how it differs from the standard Bridge and Turbo modules and show some of the features it offers.",
+            "speakers": [
+                "3LDKN8"
+            ],
+            "track": null,
+            "start": "2023-06-16T11:30:00+02:00",
+            "end": "2023-06-16T12:10:00+02:00",
+            "room": 2
+        },
+        {
+            "code": "LFXSA9",
+            "title": "Gradle and Cocoapods 101 for RN developers",
+            "abstract": "Everyone uses them, not so many people knows them. Some are even scared. With this talk I hope you'll have good starting point to understand and leverage the power of tools that build your apps and manage their dependencies.",
+            "speakers": [
+                "TYDGN3"
+            ],
+            "track": null,
+            "start": "2023-06-16T12:10:00+02:00",
+            "end": "2023-06-16T12:50:00+02:00",
+            "room": 2
+        },
+        {
+            "code": "9TMKH8",
+            "title": "Design systems in React Native: a storybook approach",
+            "abstract": "Have you ever wondered if the same principles and libraries used for web design systems can be applied to mobile ones? We did. In Belka we created a boilerplate and documentation to build a reproducible process for web design systems but soon we realised that the logic and the code structure for mobile design systems are slightly different from what we chose.\r\nBut we were sure about one thing: using Storybook. In this talk, we will explain and analyze the decisions we made in terms of design systems for React Native apps. We will dive into the implementation of Storybook and show how it can be used to build a reproducible process. By the end of this talk, you will have a better understanding of how to use Storybook to create design systems for React Native apps and how to adapt them from the web to the mobile environment.",
+            "speakers": [
+                "SZU8EJ",
+                "DUTTVM"
+            ],
+            "track": null,
+            "start": "2023-06-16T12:50:00+02:00",
+            "end": "2023-06-16T13:30:00+02:00",
+            "room": 2
+        },
+        {
+            "code": "SK8GVU",
+            "title": "React Native and Web3: blockchain capabilities",
+            "abstract": "Nowadays it is spoken more often about blockchain, web3, memecoin, decentralisation and tokens, it is a growing sector and evolving quickly. \r\nWe are going to see how it is possible to leverage React Native Framework with one of the main open source js libraries to operate with one of this blockchain by doing simple operations: reading assets linked to an address, sending and receiving a token.",
+            "speakers": [
+                "SLFX83",
+                "8CXHNH"
+            ],
+            "track": null,
+            "start": "2023-06-16T14:30:00+02:00",
+            "end": "2023-06-16T15:15:00+02:00",
+            "room": 2
+        },
+        {
+            "code": "TFKUGF",
+            "title": "How to hack & protect mobile apps",
+            "abstract": "You should attend this talk if you want to know **how the mobile apps can be hacked** and how you can **protect it from the modern reverse engineering technics** and malware used by hackers. As a bonus, you will also learn **how to protect app's backend** from APIs abuse like botnets, fake registrations, and token hijacking. The talk is aligned with current **OWASP MAS** practices with a focus on resiliency, network and storage areas.\r\n\r\n**You will learn the following:**\r\n* How to disassemble an app and extract its secrets\r\n* How to inject malicious code or clone the app\r\n* How to steal authentication tokens\r\n* How to defend apps API calls\r\n* How to protect against all these attacks",
+            "speakers": [
+                "CJXQCL"
+            ],
+            "track": null,
+            "start": "2023-06-16T15:15:00+02:00",
+            "end": "2023-06-16T16:00:00+02:00",
+            "room": 2
+        },
+        {
+            "code": "7BP3FP",
+            "title": "From webview to React Native",
+            "abstract": "Webviews are often considered the optimal solution by numerous companies because they're inaccurately thought to be a cheaper and faster way to develop initial versions of non-core features.\u00a0\r\nIn this speech, we will discuss how to approach webview porting and the potential challenges you may experience.\r\nAdditionally, we will explore how dedicated tools can support the implementation phase.",
+            "speakers": [
+                "AEH8BF"
+            ],
+            "track": null,
+            "start": "2023-06-16T16:30:00+02:00",
+            "end": "2023-06-16T17:00:00+02:00",
+            "room": 2
+        },
+        {
+            "code": "HF9CVT",
+            "title": "Politecnico di Torino: React Native and open source in the public sector",
+            "abstract": "Politecnico di Torino is one of the few Italian universities with an internal IT department: many of the operational services that support the daily activities of thousands of students are built and maintained internally, usually in a closed-source fashion. PoliTO Students - the new mobile application for students - started in this context, but was taken as an opportunity to experiment with novel methodologies: open source, user-centered design and student involvement.\r\nIn this talk we will share our journey building the first official university-led open source project at PoliTO and possibly the first ever open university app in Italy. We\u2019ll see how our bespoke design system makes the app feel native on all platforms, how the UX was shaped collaboratively and the game changing role of open and innovative methods in the public sector.",
+            "speakers": [
+                "87SSWC"
+            ],
+            "track": null,
+            "start": "2023-06-16T17:00:00+02:00",
+            "end": "2023-06-16T17:20:00+02:00",
+            "room": 2
+        },
+        {
+            "code": "YGJUNR",
+            "title": "ROUNDTABLE - New React Native architecture",
+            "abstract": "ROUNDTABLE - New React Native architecture",
+            "speakers": [
+                "HECXWH",
+                "SLFX83"
+            ],
+            "track": null,
+            "start": "2023-06-16T17:20:00+02:00",
+            "end": "2023-06-16T18:00:00+02:00",
+            "room": 2
+        }
+    ],
+    "version": "0.12",
+    "timezone": "Europe/Rome",
+    "tracks": [],
+    "rooms": [
+        {
+            "id": 2,
+            "name": {
+                "en": "Auditorium"
+            }
+        }
+    ],
+    "speakers": [
+        {
+            "code": "HECXWH",
+            "name": "Lorenzo Sciandra",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/60_full_picture_-_optimized_-_squared_O7zGQvq.jpg"
+        },
+        {
+            "code": "NQZE7C",
+            "name": "Lorenzo Spinelli",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/profile-pic-500-bg_neMIUFf.png"
+        },
+        {
+            "code": "CJXQCL",
+            "name": "Tom\u00e1\u0161 Soukal",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/ea7a-0o0o0-Trj2oeDUbyCP34jx7Pd1Kj_yKFzvW7.jpg"
+        },
+        {
+            "code": "87SSWC",
+            "name": "Umberto Pepato",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/professional-square-crop-small_wtgzETq.png"
+        },
+        {
+            "code": "SZU8EJ",
+            "name": "Federica Vacca",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/Federica_Vacca_Fp3Gcap.jpg"
+        },
+        {
+            "code": "DUTTVM",
+            "name": "Anas Araid",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/image_kz3lsdH.png"
+        },
+        {
+            "code": "TYDGN3",
+            "name": "Micha\u0142 Czernek",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/DSC07192-min_7BSlUIQ.jpg"
+        },
+        {
+            "code": "SLFX83",
+            "name": "Umberto Lanno",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/IMAGE-2022-03-08-11-44-27_zAz7VuN.jpg"
+        },
+        {
+            "code": "3LDKN8",
+            "name": "Tomasz Sapeta",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/profilowe_VClqxkI.jpg"
+        },
+        {
+            "code": "8CXHNH",
+            "name": "Mirko Quaglia",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/1544649262524_E9OnP55.jpeg"
+        },
+        {
+            "code": "AEH8BF",
+            "name": "Simone Carazzai",
+            "avatar": "https://cfp.synesthesia.it/media/avatars/simone_carazzai_B0BD3qs.jpeg"
+        }
+    ]
+}
